@@ -6,5 +6,5 @@ Access to Deriv broker:
 https://deriv.com/
 
 Volatiliy 50 (1s):
-- Lowest lot 0.005
+- Lowest allowed lot 0.005
 
