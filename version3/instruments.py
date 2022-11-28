@@ -6,12 +6,8 @@ class Instrument:
         self.ent_price = ent_price
         self.stp_price = stp_price
         self.risk_pct = risk_pct
-
-    def num_of_pips(self):
-        return self.ent_price - self.stp_price
-    
-    def risk_allowed_amount(self):
-        return self.acc_balance * (self.risk_pct / 100)
+        self.num_of_pips = ent_price - stp_price
+        self.risk_allowed_amount = acc_balance * (risk_pct / 100)
 
 #Get details
 account_balance = float(input("Enter account balance: "))
