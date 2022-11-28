@@ -7,5 +7,6 @@ This provides a good template for adding other instruments with less code.
 
 Recommendations for next changes on problems_to_tackle.md and:
  - Creating a file for all instruments to be called.
+ - Is there a way to optimise get_lot code?
  - If it is going to be a webpage then mostly return values will be needed and not prints.
  - Creating a webpage and database for this project.
