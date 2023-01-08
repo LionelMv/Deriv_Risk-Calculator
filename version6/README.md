@@ -1,7 +1,8 @@
 Version6:
-Improvements done on version6
-On instruments module:
-    - Added code to handle negative values.
+Improvements done on version5
+Renamed instruments module to get_details.
+On get_details module:
+    - Added function to handle negative values when getting number of pips.
 Mistake on v501s module:
     - lowest_lot and lowest_allowable_lot had been interchanged giving incorrect results
     for both lot size and total risk.
