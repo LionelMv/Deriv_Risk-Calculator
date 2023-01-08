@@ -1,3 +1,13 @@
+Version6:
+Improvements done on version6
+On instruments module:
+    - Added code to handle negative values.
+Mistake on v501s module:
+    - lowest_lot and lowest_allowable_lot had been interchanged giving incorrect results
+    for both lot size and total risk.
+Improved documentation (README.md files) for all versions.
+
+
 Version5:
 - Based off version4
 - Modularized version of all. Most code is optimized.
